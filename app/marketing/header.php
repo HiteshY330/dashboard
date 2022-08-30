@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/tr1.png" />
+    <link rel="shortcut icon" href="../assets/images/tr1.png" />
     <script src="https://kit.fontawesome.com/7caa695be5.js" crossorigin="anonymous"></script>
+
+    <!-- start datatable -->
+    <link rel="../assets/datatable/css/jquery.dataTables.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
+ 
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>  
+    <script src="../assets/datatable/js/jquery.dataTables.min.js"></script> 
+
+    <!-- end datatable -->
   </head>
   <body>
     <div class="container-scroller">
@@ -45,8 +56,8 @@
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" style="background-color: #ffff;" href="index.html"><img src="assets/images/application.png" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/tr1.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" style="background-color: #ffff;" href="index.html"><img src="../assets/images/application.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../assets/images/tr1.png" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -90,7 +101,7 @@
             <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
-                  <img src="assets/images/faces/face28.pn" alt="">
+                  <img src="../assets/images/faces/face28.pn" alt="">
                 </div>
                 <div class="nav-profile-text">
                   <p class="mb-1 text-black">ABCD</p>
@@ -98,7 +109,7 @@
               </a>
               <div class="dropdown-menu  navbar-dropdown dropdown-menu p-0  border-0 font-size-sm" aria-labelledby="profileDropdown" data-x-placement="bottom-end">
                 <div class="p-3 text-center bg-primary">
-                  <img class="img-avatar img-avatar48 img-avatar-thumb" src="assets/images/faces/face28.pn" alt="">
+                  <img class="img-avatar img-avatar48 img-avatar-thumb" src="../assets/images/faces/face28.pn" alt="">
                 </div>
                 <div class="p-2">
                   <h5 class="dropdown-header text-uppercase ps-2 text-dark">User Options</h5>
@@ -314,41 +325,3 @@
             </li>
           </ul>
         </nav>
-        <!-- partial -->
-         <div class="main-panel">
-        
-          
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="footer-inner-wraper">
-              <div class="d-sm-flex justify-content-center justify-content-sm-between py-2">
-                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https:techrays.com/" target="_blank">Techrays Technologies </a>2022</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="#" target="_blank"> Techrays</a> Technologies</span>
-              </div>
-            </div>
-          </footer>
-          <!-- partial -->
-        </div>
-        <!-- main-panel ends -->
-      </div>
-      <!-- page-body-wrapper ends -->
-    </div>
-    <!-- container-scroller -->
-    <!-- plugins:js -->
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/js/circle-progress.min.js"></script>
-    <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="assets/js/off-canvas.js"></script>
-    <script src="assets/js/hoverable-collapse.js"></script>
-    <script src="assets/js/misc.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="assets/js/dashboard.js"></script>
-    <!-- End custom js for this page -->
-  </body>
-</html>
